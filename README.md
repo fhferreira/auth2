@@ -1,4 +1,12 @@
-multiauth
+Laravel 4 Multi Auth With Password Reminder
 =========
 
-Laravel 4 Multi Auth and Reminders
+## Installation
+
+## Example
+
+#### Auth
+
+
+#### Password Reminder
+

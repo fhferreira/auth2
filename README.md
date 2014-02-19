@@ -63,8 +63,6 @@ Finish.
   
   Auth2::admin()->logout();
   
-  Auth2::admin()->loginWithId('admin', 1, TRUE);
-  
   ```
   
 #### Password Reminder

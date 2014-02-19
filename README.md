@@ -6,7 +6,7 @@
 Open your composer.json file, and add the new required package.
 
   ```
-  "pingpong/modules": "dev-master" 
+  "pingpong/auth2": "dev-master" 
   ```
 
 Next, open a terminal and run.

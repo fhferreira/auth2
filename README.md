@@ -32,8 +32,6 @@ Finish.
 
   ```php
   
-  <?php
-  
     return array(
     
     	// example 
@@ -101,8 +99,15 @@ Finish.
   Password Reset
 
   ```php
-  
-    $credentials = Input::only(
+  	
+	/**
+	 * Handle a POST request to reset a user's password.
+	 *
+	 * @return Response
+	 */
+	public function postReset()
+	{
+    		$credentials = Input::only(
 			'email', 'password', 'password_confirmation', 'token'
 		);
 
@@ -123,5 +128,6 @@ Finish.
 			case 'reminders.reset':
 				return Redirect::to('admin');
 		}
+	}
   ```
   
